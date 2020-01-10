@@ -1,0 +1,126 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
+      <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DAL\DAL.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Pages\Customer\FoodItem\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Customer\FoodItem\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Customer\FoodItem\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Customer\FoodItem\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Customer\FoodItem\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Customer\Feedback\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Customer\Feedback\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Customer\Feedback\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Customer\Feedback\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Customer\Feedback\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Feedback\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Feedback\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Feedback\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Feedback\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Feedback\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Test\Test.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Category\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Category\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Category\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Category\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Category\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\FoodIngredient\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\FoodIngredient\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\FoodIngredient\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\FoodIngredient\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\FoodIngredient\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\FoodItem\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\FoodItem\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\FoodItem\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\FoodItem\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\FoodItem\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\OrderItem\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\OrderItem\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\OrderItem\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\OrderItem\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\OrderItem\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Order\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Order\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Order\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Order\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Order\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Person\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Person\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Person\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Person\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Person\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Feedback\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Feedback\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Feedback\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Feedback\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Feedback\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Gate\Order\OrderItem\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Gate\Order\OrderItem\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Gate\Order\OrderItem\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Gate\Order\OrderItem\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Gate\Order\OrderItem\Index.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <UpToDateCheckInput Remove="Pages\Admin\OrderItem\Create.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\OrderItem\Delete.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\OrderItem\Details.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\OrderItem\Edit.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\OrderItem\Index.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\Feedback\Create.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\Feedback\Delete.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\Feedback\Details.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\Feedback\Edit.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\Feedback\Index.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\Order\Create.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\Order\Delete.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\Order\Details.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\Order\Edit.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\Order\Index.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\OrderItem\Create.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\OrderItem\Delete.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\OrderItem\Details.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\OrderItem\Edit.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\OrderItem\Index.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\FoodItem\Create.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\FoodItem\Delete.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\FoodItem\Details.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\FoodItem\Edit.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\FoodItem\Index.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\FoodIngredient\Create.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\FoodIngredient\Delete.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\FoodIngredient\Details.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\FoodIngredient\Edit.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\FoodIngredient\Index.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\Category\Create.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\Category\Delete.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\Category\Details.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\Category\Edit.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\Category\Index.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\Person\Create.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\Person\Delete.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\Person\Details.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\Person\Edit.cshtml" />
+      <UpToDateCheckInput Remove="Pages\Admin\Person\Index.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Pages\Admin\Gate" />
+    </ItemGroup>
+
+
+</Project>

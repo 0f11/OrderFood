@@ -1,0 +1,16 @@
+C:\Users\Rommi\OrderFood\Domain\bin\Debug\netstandard2.1\Domain.deps.json
+C:\Users\Rommi\OrderFood\Domain\bin\Debug\netstandard2.1\Domain.dll
+C:\Users\Rommi\OrderFood\Domain\bin\Debug\netstandard2.1\Domain.pdb
+C:\Users\Rommi\OrderFood\Domain\obj\Debug\netstandard2.1\Domain.csprojAssemblyReference.cache
+C:\Users\Rommi\OrderFood\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfoInputs.cache
+C:\Users\Rommi\OrderFood\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfo.cs
+C:\Users\Rommi\OrderFood\Domain\obj\Debug\netstandard2.1\Domain.dll
+C:\Users\Rommi\OrderFood\Domain\obj\Debug\netstandard2.1\Domain.pdb
+C:\Users\Rommi\icd0008-2019f\OrderFood\Domain\bin\Debug\netstandard2.1\Domain.deps.json
+C:\Users\Rommi\icd0008-2019f\OrderFood\Domain\bin\Debug\netstandard2.1\Domain.dll
+C:\Users\Rommi\icd0008-2019f\OrderFood\Domain\bin\Debug\netstandard2.1\Domain.pdb
+C:\Users\Rommi\icd0008-2019f\OrderFood\Domain\obj\Debug\netstandard2.1\Domain.csprojAssemblyReference.cache
+C:\Users\Rommi\icd0008-2019f\OrderFood\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfoInputs.cache
+C:\Users\Rommi\icd0008-2019f\OrderFood\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfo.cs
+C:\Users\Rommi\icd0008-2019f\OrderFood\Domain\obj\Debug\netstandard2.1\Domain.dll
+C:\Users\Rommi\icd0008-2019f\OrderFood\Domain\obj\Debug\netstandard2.1\Domain.pdb

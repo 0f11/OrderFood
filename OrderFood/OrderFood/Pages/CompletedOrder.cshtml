@@ -1,0 +1,28 @@
+﻿@page
+@model OrderFood.CompletedOrder
+<table class="table table-bordered" style="width: initial;">
+    <hr>
+    <h1>Completed order</h1>
+    <hr>
+    <tr>
+        <th>Meal</th>
+        <th>Price</th>
+    </tr>
+    @foreach (var item in Model.OrderedItems2)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FoodItem.FoodItemName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sum)EUR
+            </td>
+        </tr>
+    }
+</table>
+<hr>
+Total amount = @Model.Sum EUR
+<hr>
+<div>
+    <a asp-page="./Index" class="btn btn-secondary btn-info">Exit</a>
+</div>

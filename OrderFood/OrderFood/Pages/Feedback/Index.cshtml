@@ -1,0 +1,31 @@
+@page
+@model OrderFood.Pages_Admin_Feedback.IndexModel
+
+@{
+    ViewData["Title"] = "Feedback";
+}
+
+<h1>Feedback</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Feedback[0].FeedbackComment)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Feedback) {
+        <tr>
+            <td>
+                *@Html.DisplayFor(modelItem => item.FeedbackComment)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

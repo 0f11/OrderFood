@@ -1,0 +1,20 @@
+﻿@page
+@model OrderFood.Ingredients
+
+Ingredients for @Model.FoodItemToShow
+<table class="table table-bordered" style="width: initial;">
+<h1>Menu</h1>
+<hr/>
+<tr>
+    <th>Ingredient</th>
+</tr>
+@foreach (var item in Model.FoodIngredients)
+{
+    <tr>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.Ingredient)
+        </td>
+    </tr>
+}
+</table>

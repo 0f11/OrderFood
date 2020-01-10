@@ -1,0 +1,48 @@
+@page
+@model OrderFood.Pages_Admin_FoodItem.IndexModel
+
+@{
+    ViewData["Title"] = "Dishes";
+}
+
+<h1>Dishes</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FoodItem[0].FoodItemName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FoodItem[0].Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FoodItem[0].Category)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.FoodItem) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FoodItemName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category.CategoryName)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.FoodItemId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.FoodItemId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.FoodItemId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

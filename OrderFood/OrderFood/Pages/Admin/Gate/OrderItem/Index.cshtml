@@ -1,0 +1,48 @@
+@page
+@model OrderFood.Pages_Admin_OrderItem.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderItem[0].Person)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderItem[0].FoodItem)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderItem[0].Sum)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.OrderItem) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Person.PersonId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FoodItem.FoodItemId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sum)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.OrderItemId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.OrderItemId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.OrderItemId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

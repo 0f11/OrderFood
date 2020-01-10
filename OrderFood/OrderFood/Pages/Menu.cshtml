@@ -1,0 +1,62 @@
+﻿@page
+@model OrderFood.Pages.Menu
+<form method="post">
+    <table class="table table-bordered" style="width: initial;">
+        <h1>Menu</h1>
+        <hr/>
+        <tr>
+            <th>Choose item</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Ingredients</th>
+        </tr>
+        @foreach (var item in Model.Items)
+        {
+            <tr>
+                <td>
+                    <a asp-page="./Menu" asp-route-foodItemId="@item.FoodItemId" asp-route-personId="@Model.SavedPersonId" class="btn btn-secondary btn-info">Add</a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FoodItemName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    <a asp-page="./Ingredients" asp-route-foodItemId="@item.FoodItemId" class="btn btn-secondary btn-info">Ingredients</a>
+                </td>
+            </tr>
+        }
+    </table>
+     <hr/>
+     <table class="table table-bordered" style="width: initial;">
+         <h1>Ordered items</h1>
+         <tr>
+             <th>Remove</th>
+             <th>Name</th>
+         </tr>
+         @foreach (var item in Model.OrderedItems)
+         {
+             <tr>
+                 <td>
+                     <a asp-page="./Menu" asp-route-removeItemId="@item.OrderItemId" asp-route-personId="@Model.SavedPersonId" class="btn btn-secondary btn-info">Remove</a>
+                 </td>
+                 <td>
+                     @Html.DisplayFor(modelItem => item.FoodItem.FoodItemName)
+                 </td>
+             </tr>
+         }
+     </table>
+     @foreach (var item in Model.OrderedItems)
+     {
+         Model.SumToShow += item.Sum;
+     }
+     Total = @Model.SumToShow EUR
+    
+    <hr/>
+    <a asp-page="./CompletedOrder" asp-route-personId="@Model.SavedPersonId" class="btn btn-secondary btn-info">Complete Order</a>
+
+</form>
+
+
+
