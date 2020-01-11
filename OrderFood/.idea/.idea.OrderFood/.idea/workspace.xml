@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33987cae-57f2-4aa5-9b7d-368d328080c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.OrderFood/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.OrderFood/.idea/dataSources/8f4b7dc4-bbc9-4703-817e-17eeed038558.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.OrderFood/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OrderFood/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OrderFood/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OrderFood/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OrderFood/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/bin/Debug/netstandard2.1/DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/bin/Debug/netstandard2.1/DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/bin/Debug/netstandard2.1/DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/bin/Debug/netstandard2.1/DAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/bin/Debug/netstandard2.1/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/bin/Debug/netstandard2.1/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/bin/Debug/netstandard2.1/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/bin/Debug/netstandard2.1/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/obj/DAL.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/obj/DAL.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/obj/DAL.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/obj/DAL.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/obj/DAL.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/obj/DAL.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/obj/Debug/netstandard2.1/DAL.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/obj/Debug/netstandard2.1/DAL.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/obj/Debug/netstandard2.1/DAL.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/obj/Debug/netstandard2.1/DAL.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/obj/Debug/netstandard2.1/DAL.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/obj/Debug/netstandard2.1/DAL.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/obj/Debug/netstandard2.1/DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/obj/Debug/netstandard2.1/DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/obj/Debug/netstandard2.1/DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/obj/Debug/netstandard2.1/DAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Feedback.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Feedback.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/OrderItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/OrderItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/netstandard2.1/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/netstandard2.1/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/netstandard2.1/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/netstandard2.1/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netstandard2.1/Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/netstandard2.1/Domain.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netstandard2.1/Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/netstandard2.1/Domain.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netstandard2.1/Domain.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/netstandard2.1/Domain.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netstandard2.1/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/netstandard2.1/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netstandard2.1/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/netstandard2.1/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/OrderFoodDb.db" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/OrderFoodDb.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/Pages/Admin.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/Pages/Admin.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/FoodIngredient/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/FoodIngredient/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/Order/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/Order/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/OrderItem/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/OrderItem/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/OrderItem/Create.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/OrderItem/Create.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/OrderItem/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/OrderItem/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/Pages/CompletedOrder.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/Pages/CompletedOrder.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/Pages/CompletedOrder.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/Pages/CompletedOrder.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/Pages/CustomerView.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/Pages/CustomerView.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/Pages/Ingredients.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/Pages/Ingredients.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/Pages/Menu.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/Pages/Menu.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/Pages/Menu.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/Pages/Menu.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/bin/Debug/netcoreapp3.1/DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/bin/Debug/netcoreapp3.1/DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/bin/Debug/netcoreapp3.1/DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/bin/Debug/netcoreapp3.1/DAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/bin/Debug/netcoreapp3.1/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/bin/Debug/netcoreapp3.1/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/bin/Debug/netcoreapp3.1/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/bin/Debug/netcoreapp3.1/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/bin/Debug/netcoreapp3.1/OrderFood.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/bin/Debug/netcoreapp3.1/OrderFood.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/bin/Debug/netcoreapp3.1/OrderFood.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/bin/Debug/netcoreapp3.1/OrderFood.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/bin/Debug/netcoreapp3.1/OrderFood.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/bin/Debug/netcoreapp3.1/OrderFood.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/bin/Debug/netcoreapp3.1/OrderFood.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/bin/Debug/netcoreapp3.1/OrderFood.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/bin/Debug/netcoreapp3.1/OrderFood.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/bin/Debug/netcoreapp3.1/OrderFood.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/OrderFood.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/OrderFood.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/OrderFood.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/OrderFood.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/OrderFood.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/OrderFood.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/OrderFood.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/OrderFood.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/OrderFood.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/OrderFood.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/OrderFood.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/OrderFood.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/OrderFood.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/OrderFood.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Category/Create.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Category/Create.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Category/Delete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Category/Delete.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Category/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Category/Details.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Category/Edit.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Category/Edit.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Category/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Category/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/FoodIngredient/Create.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/FoodIngredient/Create.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/FoodIngredient/Delete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/FoodIngredient/Delete.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/FoodIngredient/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/FoodIngredient/Details.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/FoodIngredient/Edit.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/FoodIngredient/Edit.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/FoodIngredient/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/FoodIngredient/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/FoodItem/Create.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/FoodItem/Create.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/FoodItem/Delete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/FoodItem/Delete.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/FoodItem/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/FoodItem/Details.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/FoodItem/Edit.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/FoodItem/Edit.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/FoodItem/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/FoodItem/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Order/Delete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Order/Delete.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Order/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Order/Details.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Order/Edit.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Order/Edit.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Order/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Order/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/OrderItem/Create.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/OrderItem/Create.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/OrderItem/Delete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/OrderItem/Delete.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/OrderItem/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/OrderItem/Details.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/OrderItem/Edit.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/OrderItem/Edit.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/OrderItem/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/OrderItem/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Person/Create.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Person/Create.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Person/Delete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Person/Delete.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Person/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Person/Details.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Person/Edit.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Person/Edit.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Person/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Gate/Person/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/CompletedOrder.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/CompletedOrder.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/CustomerView.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/CustomerView.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Error.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Error.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Feedback/Create.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Feedback/Create.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Feedback/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Feedback/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Ingredients.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Ingredients.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Menu.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Menu.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Privacy.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Privacy.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/OrderFood.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/OrderFood.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/OrderFood.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/OrderFood.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/OrderFood.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/OrderFood.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderFood/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/OrderFood/obj/project.packagespec.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="OrderFoodDb.db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="OrderFoodDb.db [2]" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="OrderFoodDb.db [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="OrderFoodDb.db [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/FoodItem/Index.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/OrderItem/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderFood/Pages/CustomerView.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderFood/Pages/CompletedOrder.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/OrderItem/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/OrderItem/Create.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderFood/Pages/CustomerView.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/FoodIngredient/Create.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/FoodIngredient/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/OrderItem/Index.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/FoodIngredient/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Feedback.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/FoodItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/FoodItem/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/FoodItem/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/OrderItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderFood/Pages/Menu.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/FoodItem/Create.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderFood/Pages/CompletedOrder.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Order.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderFood/Pages/Ingredients.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderFood/Pages/Menu.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/Order/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderFood/Pages/Admin.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/OrderItem/Create.cshtml.cs" />
+        <option value="$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/OrderItem/Create.cshtml" />
+        <option value="$PROJECT_DIR$/OrderFood/Pages/Ingredients.cshtml" />
+        <option value="$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/FoodIngredient/Index.cshtml" />
+        <option value="$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/Order/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Domain/OrderItem.cs" />
+        <option value="$PROJECT_DIR$/OrderFood/Pages/Admin/Gate/OrderItem/Index.cshtml" />
+        <option value="$PROJECT_DIR$/OrderFood/Pages/CustomerView.cshtml" />
+        <option value="$PROJECT_DIR$/OrderFood/Pages/CompletedOrder.cshtml.cs" />
+        <option value="$PROJECT_DIR$/OrderFood/Pages/CompletedOrder.cshtml" />
+        <option value="$PROJECT_DIR$/Domain/FoodItem.cs" />
+        <option value="$PROJECT_DIR$/OrderFood/Pages/Menu.cshtml" />
+        <option value="$PROJECT_DIR$/Domain/Feedback.cs" />
+        <option value="$PROJECT_DIR$/OrderFood/Pages/Admin.cshtml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/OrderFood/Pages/Menu.cshtml.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WDWuidK5nQR6SlUhCwG733VEEQ" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.4" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.OrderFood">
+    <configuration name="OrderFood" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/OrderFood/OrderFood.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="OrderFood" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderFood: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/OrderFood/OrderFood.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:OrderFoodDb.db [2]" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33987cae-57f2-4aa5-9b7d-368d328080c8" name="Default Changelist" comment="" />
+      <created>1578684871611</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578684871611</updated>
+      <workItem from="1578684879778" duration="14917000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578689004975">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578689004975" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1578698528382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578698528382" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1578698528382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578698528382" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1578698528382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578698528382" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1578698528382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578698528382" />
+  </component>
+</project>

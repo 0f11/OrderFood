@@ -7,5 +7,11 @@
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/OrderFood/OrderFoodDb.db</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="OrderFoodDb.db [2]" uuid="8f4b7dc4-bbc9-4703-817e-17eeed038558">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/OrderFood/OrderFoodDb.db</jdbc-url>
+    </data-source>
   </component>
 </project>

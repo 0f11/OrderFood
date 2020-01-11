@@ -12,7 +12,10 @@ namespace OrderFood
     {
         private readonly DAL.AppDbContext _context;
         public List<OrderItem> OrderedItems2 { get; set; }
+        
         public double Sum { get; set; }
+
+        public string Name { get; set; }
 
         public CompletedOrder(AppDbContext context)
         {
@@ -20,8 +23,8 @@ namespace OrderFood
         }
 
         public async void OnGetAsync(int personId)
-        {
-            var orderedItemsQuery2 = _context.OrderItems.Where(n => n.PersonId == personId).AsQueryable();
+        {    
+            var orderedItemsQuery2 = _context.OrderItems.Where(n => n.PersonId == personId).Include(o=>o.FoodItem).AsQueryable();
             OrderedItems2 = await orderedItemsQuery2.ToListAsync();
             foreach (var item in OrderedItems2)
             {
@@ -29,6 +32,9 @@ namespace OrderFood
             }
 
             var person = _context.Persons.First(n => n.PersonId == personId);
+
+            Name = person.PersonName;
+            
             var order = _context.Orders.First(n => n.OrderId == person.OrderId);
             order.OrderSum = (int) Sum;
             _context.Orders.Update(order);

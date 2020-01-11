@@ -8,4 +8,4 @@ namespace Domain
         [Display(Name ="Feedback")]
         public string FeedbackComment { get; set; }
     }
-}
+}    

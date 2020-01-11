@@ -1,12 +1,36 @@
 ﻿@page
 @model OrderFood.Pages.Menu
+
+
+<h1>Menu</h1>
+        <hr/>
+        <form class="form-inline" method="get">
+            <div class="form-group">
+                <!--WARNING! WEIRD BEHAVIOR OF SEARCH!-->
+                <input asp-for="Search" value="@Model.Search"  class="form-control"/>
+                <input type="hidden" name="personId" value="@Model.SavedPersonId" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Search" class="btn btn-secondary btn-info" />
+                <input type="submit" value="Reset" name = "ToDoActionReset" class="btn btn-secondary" 
+                       @(string.IsNullOrWhiteSpace(Model.Search) ? "disabled=\"disabled\"": "") />
+            </div>
+        </form>
+<div class="space-on-top-20">
+    @if (!string.IsNullOrWhiteSpace(Model.Search))
+    {
+        <p>Search is active. Search term: @Model.Search</p>
+    }
+
+</div>
 <form method="post">
     <table class="table table-bordered" style="width: initial;">
-        <h1>Menu</h1>
+
         <hr/>
         <tr>
             <th>Choose item</th>
             <th>Name</th>
+            <th>Category</th>
             <th>Price</th>
             <th>Ingredients</th>
         </tr>
@@ -20,7 +44,10 @@
                     @Html.DisplayFor(modelItem => item.FoodItemName)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Price)
+                    @Html.DisplayFor(modelItem => item.Category.CategoryName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)EUR
                 </td>
                 <td>
                     <a asp-page="./Ingredients" asp-route-foodItemId="@item.FoodItemId" class="btn btn-secondary btn-info">Ingredients</a>
@@ -34,6 +61,7 @@
          <tr>
              <th>Remove</th>
              <th>Name</th>
+             <th>Category</th>
          </tr>
          @foreach (var item in Model.OrderedItems)
          {
@@ -43,6 +71,9 @@
                  </td>
                  <td>
                      @Html.DisplayFor(modelItem => item.FoodItem.FoodItemName)
+                 </td>
+                 <td>
+                     @Html.DisplayFor(modelItem => item.FoodItem.Category.CategoryName)
                  </td>
              </tr>
          }

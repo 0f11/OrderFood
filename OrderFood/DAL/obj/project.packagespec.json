@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\Rommi\\OrderFood\\OrderFood\\DAL\\DAL.csproj",
+    "projectUniqueName": "C:\\Users\\eparrom\\OrderFood\\OrderFood\\DAL\\DAL.csproj",
     "projectName": "DAL",
-    "projectPath": "C:\\Users\\Rommi\\OrderFood\\OrderFood\\DAL\\DAL.csproj",
-    "outputPath": "C:\\Users\\Rommi\\OrderFood\\OrderFood\\DAL\\obj\\",
+    "projectPath": "C:\\Users\\eparrom\\OrderFood\\OrderFood\\DAL\\DAL.csproj",
+    "outputPath": "C:\\Users\\eparrom\\OrderFood\\OrderFood\\DAL\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13,14 +13,13 @@
       "netstandard2.1"
     ],
     "sources": {
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
       "netstandard2.1": {
         "projectReferences": {
-          "C:\\Users\\Rommi\\OrderFood\\OrderFood\\Domain\\Domain.csproj": {
-            "projectPath": "C:\\Users\\Rommi\\OrderFood\\OrderFood\\Domain\\Domain.csproj"
+          "C:\\Users\\eparrom\\OrderFood\\OrderFood\\Domain\\Domain.csproj": {
+            "projectPath": "C:\\Users\\eparrom\\OrderFood\\OrderFood\\Domain\\Domain.csproj"
           }
         }
       }
@@ -64,7 +63,13 @@
         "net48"
       ],
       "assetTargetFallback": true,
-      "warn": true
+      "warn": true,
+      "frameworkReferences": {
+        "NETStandard.Library": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
     }
   }
 }

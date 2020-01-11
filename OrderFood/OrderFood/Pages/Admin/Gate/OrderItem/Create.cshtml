@@ -7,7 +7,7 @@
 
 <h1>Create</h1>
 
-<h4>OrderItem</h4>
+<h4>Order Item</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -15,11 +15,11 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="OrderItem.PersonId" class="control-label"></label>
-                <select asp-for="OrderItem.PersonId" class ="form-control" asp-items="ViewBag.PersonId"></select>
+                <select asp-for="OrderItem.PersonId" class ="form-control" asp-items="Model.PersonSelectedList"></select>
             </div>
             <div class="form-group">
                 <label asp-for="OrderItem.FoodItemId" class="control-label"></label>
-                <select asp-for="OrderItem.FoodItemId" class ="form-control" asp-items="ViewBag.FoodItemId"></select>
+                <select asp-for="OrderItem.FoodItemId" class ="form-control" asp-items="Model.FootItemSelectedList"></select>
             </div>
             <div class="form-group">
                 <label asp-for="OrderItem.Sum" class="control-label"></label>

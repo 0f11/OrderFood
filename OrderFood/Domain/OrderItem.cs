@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace Domain
 {
@@ -9,6 +10,7 @@ namespace Domain
         public Person? Person { get; set; }
         public int FoodItemId { get; set; }
         public FoodItem? FoodItem { get; set; }
+        [Display(Name ="Price")]
         public double Sum { get; set; }
         
         

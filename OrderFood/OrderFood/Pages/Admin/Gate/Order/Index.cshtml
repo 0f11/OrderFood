@@ -13,10 +13,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Order[0].OrderSum)
             </th>
-            <th></th>
             <th>
-                            @Html.DisplayNameFor(model => model.Order[0].OrderId)
-                        </th>
+                @Html.DisplayNameFor(model => model.Order[0].OrderId)
+            </th>
             <th></th>
             
         </tr>
@@ -25,7 +24,7 @@
 @foreach (var item in Model.Order) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.OrderSum)
+                @Html.DisplayFor(modelItem => item.OrderSum)EUR
             </td>
             <td>
                             @Html.DisplayFor(modelItem => item.OrderId)

@@ -13,6 +13,8 @@ namespace OrderFood.Pages_Admin_OrderItem
     public class CreateModel : PageModel
     {
         private readonly DAL.AppDbContext _context;
+        public SelectList FootItemSelectedList { get; set; }
+        public SelectList PersonSelectedList { get; set; }
 
         public CreateModel(DAL.AppDbContext context)
         {
@@ -21,8 +23,8 @@ namespace OrderFood.Pages_Admin_OrderItem
 
         public IActionResult OnGet()
         {
-        ViewData["FoodItemId"] = new SelectList(_context.FoodItems, "FoodItemId", "FoodItemId");
-        ViewData["PersonId"] = new SelectList(_context.Persons, "PersonId", "PersonId");
+            FootItemSelectedList = new SelectList(_context.FoodItems, nameof(FoodItem.FoodItemId),nameof(FoodItem.FoodItemName));
+            PersonSelectedList = new SelectList(_context.Persons, nameof(Person.PersonId), nameof(Person.PersonName));
             return Page();
         }
 
